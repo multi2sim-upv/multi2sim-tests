@@ -1,0 +1,16 @@
+0
+Platform 0 : Advanced Micro Devices, Inc.
+Input Image images/0.bmp 
+Output Image out0.bmp 
+GPU not found. Falling back to CPU device
+
+Selected Platform Vendor : Advanced Micro Devices, Inc.
+Device 0 : AMD Phenom(tm) II X4 945 Processor
+ 
+			BUILD LOG
+ ************************************************
+Error: loading a kernel from OpenCL binary failed!
+
+ ************************************************
+Error: clBuildProgram failed. Error code : CL_BUILD_PROGRAM_FAILURE
+1

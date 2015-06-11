@@ -1,0 +1,33 @@
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: h8BVN
+
+>>> check module mod-l1-0, set 0, way 1 - state E, tag 0x400 - passed
+>>> check module mod-l1-0, set 0, way 0 - state E, tag 0x800 - passed
+>>> check module mod-l1-1, set 1, way 0 - state M, tag 0x40 - passed
+>>> check module mod-l2-0, set 0, way 0 - state E, tag 0x0 - passed
+>>> check module mod-l2-0, set 0, way 3 - state E, tag 0x400 - passed
+>>> check module mod-l2-0, set 0, way 2 - state E, tag 0x800 - passed
+>>> check sharers at module mod-l2-0, set 0, way 0, subblock 0 - { mod-l1-0 } - failed
+	sharer mod-l1-0 expected, but not found
+>>> check sharers at module mod-l2-0, set 0, way 0, subblock 1 - { mod-l1-1 } - passed
+>>> check sharers at module mod-l2-0, set 0, way 3, subblock 0 - { mod-l1-0 } - passed
+>>> check sharers at module mod-l2-0, set 0, way 2, subblock 0 - { mod-l1-0 } - passed
+>>> check owner at module mod-l2-0, set 0, way 0, subblock 0 - mod-l1-0 - failed
+	owner None found, but mod-l1-0 expected
+>>> check owner at module mod-l2-0, set 0, way 0, subblock 1 - mod-l1-1 - passed
+>>> check owner at module mod-l2-0, set 0, way 3, subblock 0 - mod-l1-0 - passed
+>>> check owner at module mod-l2-0, set 0, way 2, subblock 0 - mod-l1-0 - passed
+>>> check bytes on link_<n0.out_buf_0>_<s0.in_buf_0> - failed
+	link_<n0.out_buf_0>_<s0.in_buf_0> expected 16 bytes transferred, but 24 found
+>>> check bytes on link_<s0.out_buf_0>_<n0.in_buf_0> - failed
+	link_<s0.out_buf_0>_<n0.in_buf_0> expected 144 bytes transferred, but 152 found
+>>> check bytes on link_<n1.out_buf_0>_<s0.in_buf_1> - passed
+>>> check bytes on link_<s0.out_buf_1>_<n1.in_buf_0> - passed
+>>> check bytes on link_<n2.out_buf_0>_<s0.in_buf_2> - failed
+	link_<n2.out_buf_0>_<s0.in_buf_2> expected 144 bytes transferred, but 152 found
+>>> check bytes on link_<s0.out_buf_2>_<n2.in_buf_0> - failed
+	link_<s0.out_buf_2>_<n2.in_buf_0> expected 16 bytes transferred, but 24 found
+>>> check bytes on link_<n6.out_buf_0>_<s2.in_buf_0> - passed
+>>> check bytes on link_<s2.out_buf_0>_<n6.in_buf_0> - passed

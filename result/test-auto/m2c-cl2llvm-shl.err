@@ -1,0 +1,6 @@
+fatal: OpenCL-to-LLVM front-end not available.
+	The OpenCL-to-LLVM front-end could not be compiled due to an unsatisfied
+	dependence with Flex/Bison or LLVM libraries. Please install these
+	libraries and recompile.
+
+/home/sisco/workspace/m2s-client-kit/local-tests/../local-tests/test-auto/m2c-cl2llvm-shl/test.sh: línea 7: llvm-dis-3.1: no se encontró la orden

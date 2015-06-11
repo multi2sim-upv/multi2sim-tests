@@ -1,0 +1,2 @@
+cp: no se puede efectuar `stat' sobre «/home/sisco/workspace/m2s-client-kit/local-tests/../tmp/m2s-build/samples/mips/test-args»: No existe el fichero o el directorio
+/home/sisco/workspace/m2s-client-kit/local-tests/../local-tests/test-auto/mips-asm-args/test.sh: línea 5: /home/sisco/workspace/m2s-client-kit/local-tests/../tmp/m2s-build/bin/m2s: No existe el fichero o el directorio

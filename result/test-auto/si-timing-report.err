@@ -1,0 +1,3 @@
+vector-add.c:4:19: error fatal: CL/cl.h: No existe el fichero o el directorio
+compilación terminada.
+cat: si-report: No existe el fichero o el directorio

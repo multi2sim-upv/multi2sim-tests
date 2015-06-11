@@ -1,0 +1,9 @@
+/home/sisco/workspace/m2s-client-kit/local-tests/../local-tests/test-auto/m2c-llvm2si-add-f32/test.sh: línea 6: llvm-as-3.1: no se encontró la orden
+fatal: LLVM to Southern Islands back-end not available.
+	The LLVM-to-SI back-end could not be compiled due to an unsatisfied
+	dependence with the LLVM libraries. Please install this library and
+	recompile.
+
+cat: code.s: No existe el fichero o el directorio
+rm: no se puede borrar «code.llvm»: No existe el fichero o el directorio
+rm: no se puede borrar «code.s»: No existe el fichero o el directorio

@@ -1,0 +1,4 @@
+esim-time,c0t1-inst,c0t1-uinst,c0t1-ipc-int,c0t1-ipc-alone-int,c0t1-ipc-glob,c0t1-ipc-alone-glob,c0t1-disp-used,c0t1-disp-used-spec,c0t1-disp-stall-uopq,c0t1-disp-stall-rob-smt,c0t1-disp-stall-rob-mem,c0t1-disp-stall-rob,c0t1-disp-stall-iq,c0t1-disp-stall-lq,c0t1-disp-stall-sq,c0t1-disp-stall-pq,c0t1-disp-stall-rename,c0t1-disp-stall-ctx,c0t1-interthread-penalty-int,c0t1-l1-hits-int,c0t1-l1-stream-hits-int,c0t1-l1-misses-int,c0t1-l1-retries-int,c0t1-l2-hits-int,c0t1-l2-stream-hits-int,c0t1-l2-misses-int,c0t1-l2-retries-int
+16650000,0,0,0.000,0.000,0.000,0.000,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.000,0,0,0,0,0,0,0,0
+33300000,0,0,0.000,0.000,0.000,0.000,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.000,0,0,0,0,0,0,0,0
+49950000,459,851,0.017,0.017,0.006,0.006,0.022,0.025,0.700,0.000,0.251,0.002,0.000,0.000,0.000,0.000,0.000,0.000,109.000,162,0,181,0,86,0,94,0

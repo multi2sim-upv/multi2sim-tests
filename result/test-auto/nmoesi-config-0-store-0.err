@@ -1,0 +1,9 @@
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: nOTvC
+
+>>> check module mod-l1-0, set 0, way 1 - state M, tag 0x0 - passed
+>>> check module mod-l2-0, set 0, way 3 - state E, tag 0x0 - passed
+fatal: mem_system_command_get_set_way: 0: invalid way.
+	> CheckBlock mod-mm 0 15 0x0 E

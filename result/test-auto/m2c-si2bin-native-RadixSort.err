@@ -1,0 +1,2 @@
+/home/sisco/workspace/m2s-client-kit/local-tests/../local-tests/test-auto/m2c-si2bin-native-RadixSort/test.sh: línea 7: /home/sisco/workspace/m2s-client-kit/local-tests/../tmp/m2s-build/bin/m2c: No existe el fichero o el directorio
+rm: no se puede borrar «RadixSort.bin»: No existe el fichero o el directorio

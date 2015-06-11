@@ -1,0 +1,6 @@
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: zhFmY
+
+/home/sisco/workspace/m2s-client-kit/local-tests/../local-tests/test-auto/x86-timing-multithread-commit-timeslice/test.sh: línea 17: 20307 Violación de segmento  (`core' generado) $M2S --x86-sim detailed --x86-config x86-config test-threads 10

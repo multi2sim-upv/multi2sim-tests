@@ -1,0 +1,7 @@
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: nOiFr
+
+fatal: mem_system_command_get_set_way: 0: invalid way.
+	> SetBlock mod-mm 0 15 0x0 E

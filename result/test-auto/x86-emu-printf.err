@@ -1,0 +1,6 @@
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: VaJiN
+
+fatal: 0xb7dfb1e5: not supported x86 instruction (f3 0f bc da...)
